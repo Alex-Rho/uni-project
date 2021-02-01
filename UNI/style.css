@@ -1,0 +1,66 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 200px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+a input {
+  margin-bottom: 30px;
+}
+
+.featured-post {
+  margin-bottom: 50px;
+}
+
+.post-title {
+  padding-top: 10px;
+}
+
+.q-box span {
+  padding-right: 10px;
+}
+
+.q-box span i {
+  padding-right: 3px;
+}
+
+.bi-facebook, .bi-linkedin {
+  color: blue;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
